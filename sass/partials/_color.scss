@@ -1,0 +1,19 @@
+
+// Define default colors for all JP Controls
+
+// Brand Color
+$jp-color-brand: #cb6828;
+// non-functional elements
+$jp-color-context: hsl(0,0,100);
+// General Text
+$jp-color-text: hsl(0,0,30);
+// Brand Accent
+$jp-color-accent: #cb6828;
+// Get the reader's attention
+$jp-color-alert: red;
+
+
+// general borders
+$jp-color-border: change-color($jp-color-context, $lightness: 70%);
+// general background
+$jp-color-background: change-color($jp-color-context, $lightness: 80%);

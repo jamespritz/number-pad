@@ -1,0 +1,158 @@
+@import "compass/reset";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+
+@import "../partials/color";
+@import "../partials/typography";
+
+//Redefine Colors/Typeography for granular control
+
+$jp-numpad-color-brand: $jp-color-brand;
+$jp-numpad-color-context: $jp-color-context;
+$jp-numpad-color-text: $jp-color-text;
+$jp-numpad-color-accent: $jp-color-accent;
+$jp-numpad-color-alert: $jp-color-alert;
+$jp-numpad-color-border: $jp-color-border;
+$jp-numpad-color-background: $jp-color-background;
+
+$jp-numpad-font: $jp-font;
+
+.numpad {
+
+
+	opacity: 0.7;
+	background-color: $jp-np-color-context;
+	position: absolute;
+	display: block;
+	width: 260px;
+	@include border-radius(10px);
+	border: solid 2px $jp-np-color-border;
+	z-index: 1000000;
+
+	.val { 
+		position: relative;
+		display: inline-block;
+		width: 232px;
+		padding: 6px;
+		border: solid 1px $jp-np-color-border;
+		@include border-radius(10px);
+		margin: 4px;
+		overflow: hidden;
+
+			.content {
+				float: right;
+				text-align: right; 
+				font-size: 18px;
+				line-height: 18px;
+				text-wrap: none;
+				white-space: nowrap;			
+			}
+
+		}
+
+
+
+	ul {
+		
+		display: inline-block;
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		margin-top: 6px; 
+		&:last-child { margin-bottom: 6px; }
+	}
+
+	li {
+		display: inline-block;
+		font-size: 36px;
+		line-height: 72px;
+		@include border-radius(6px);
+		text-align: center;
+		height: 72px;
+		width: 72px;
+		margin: 0px;
+		padding: 0px;
+		border: solid 2px $jp-np-color-border;
+		background-color: $jp-np-color-background;
+		color: $jp-np-color-text;
+		margin-left: 6px;
+		cursor: pointer;
+		//@include box-shadow($jp-np-color-border 4px 4px 20px);
+		&:last-child { margin-right: 6px; }
+
+		
+
+		&.wide { width: 162px; }
+	}	
+
+
+
+}
+
+/*	
+	Hover does not exist on touch devices, so only add style if not a touch device
+	Assumes page is using modernizr
+*/
+.no-touch .numpad { 
+	li { 
+		&:hover { background-color: $jp-np-color-brand; color: contrast-sharp($jp-np-color-text, $jp-np-color-brand); }
+	}
+}
+
+
+.val { 
+	position: relative;
+	display: inline-block;
+	width: 116px;
+
+	padding: 3px;
+	border: solid 3px $jp-np-color-border;
+	@include border-radius(5px);
+	margin: 2px;
+	overflow: hidden;
+
+	
+
+
+		.content {
+			position: relative;
+			@include border-radius(3px);
+			float: right;
+			color: change-color($color: $jp-np-color-text, $lightness: 50%);
+			text-align: right; 
+			font-size: 14px;
+			line-height: 14px;
+			text-wrap: none;
+			white-space: nowrap;
+			background-color: white;	
+			cursor: pointer;
+			cursor: hand;		
+		}
+
+
+	}
+
+.times { 
+	position: relative;
+	display: inline-block;
+	//width: 116px;
+	padding: 5px;
+	margin: 2px;
+	overflow: hidden;
+
+	
+
+
+		.content {
+		
+
+			color: change-color($color: $jp-np-color-text, $lightness: 50%);
+			float: left;
+			font-size: 14px;
+			line-height: 14px;
+			background-color: white;	
+		
+		}
+
+
+	}

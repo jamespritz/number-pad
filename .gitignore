@@ -1,0 +1,27 @@
+# ALWAYS IGNORE
+# -------------
+
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.suo
+*.user
+
+# OS & EDITOR FOLDERS
+# -------------------
+.sass-cache
+.DS_Store
+obj
+thumbs.db
+
+
+# LOCAL TEST PAGE
+# ---------------
+test.html

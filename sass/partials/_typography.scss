@@ -1,0 +1,11 @@
+
+
+// Define Default fonts for All JP controls
+$jp-font-verdana : Verdana, "Lucida Grande", FreeSans, sans-serif;
+$jp_font-arial   : Helvetica, Arial, FreeSans, sans-serif;
+$jp-font-tahoma  : Tahoma, $jp-font-arial;
+$jp-font-segoe   : "Segoe UI";
+$jp-font-times	  : "Times New Roman", Times, serif;
+
+//	Default JP General Font
+$jp-font: $jp-font-tahoma;
