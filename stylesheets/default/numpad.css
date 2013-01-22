@@ -1,77 +1,207 @@
-/*
-Syntax error: Undefined variable: "$jp-np-color-context".
-        on line 24 of C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss
+/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss:24
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/variable.rb:49:in `_perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/node.rb:40:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-c:/Ruby193/bin/compass:23:in `load'
-c:/Ruby193/bin/compass:23:in `<main>'
+/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad {
+  opacity: 0.7;
+  background-color: #cccccc;
+  position: absolute;
+  display: block;
+  width: 260px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: solid 2px #b3b3b3;
+  z-index: 1000000;
+}
+/* line 32, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad .val {
+  position: relative;
+  display: inline-block;
+  width: 232px;
+  padding: 6px;
+  border: solid 1px #b3b3b3;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin: 4px;
+  overflow: hidden;
+}
+/* line 42, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad .val .content {
+  float: right;
+  text-align: right;
+  font-size: 18px;
+  line-height: 18px;
+  text-wrap: none;
+  white-space: nowrap;
+}
+/* line 55, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 6px;
+}
+/* line 62, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad ul:last-child {
+  margin-bottom: 6px;
+}
+/* line 65, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad li {
+  display: inline-block;
+  font-size: 36px;
+  line-height: 72px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  text-align: center;
+  height: 72px;
+  width: 72px;
+  margin: 0px;
+  padding: 0px;
+  border: solid 2px #b3b3b3;
+  background-color: #cccccc;
+  color: #4d4d4d;
+  margin-left: 6px;
+  cursor: pointer;
+}
+/* line 83, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad li:last-child {
+  margin-right: 6px;
+}
+/* line 87, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.numpad li.wide {
+  width: 162px;
+}
+
+/*	
+	Hover does not exist on touch devices, so only add style if not a touch device
+	Assumes page is using modernizr
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$jp-np-color-context\".\A         on line 24 of C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss"; }
+/* line 100, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.no-touch .numpad li:hover {
+  background-color: #cb6828;
+  color: contrast-sharp(#4d4d4d, #cb6828);
+}
+
+/* line 105, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.val {
+  position: relative;
+  display: inline-block;
+  width: 116px;
+  padding: 3px;
+  border: solid 3px #b3b3b3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 2px;
+  overflow: hidden;
+}
+/* line 119, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.val .content {
+  position: relative;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  float: right;
+  color: gray;
+  text-align: right;
+  font-size: 14px;
+  line-height: 14px;
+  text-wrap: none;
+  white-space: nowrap;
+  background-color: white;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 137, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.times {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  margin: 2px;
+  overflow: hidden;
+}
+/* line 148, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
+.times .content {
+  color: gray;
+  float: left;
+  font-size: 14px;
+  line-height: 14px;
+  background-color: white;
+}

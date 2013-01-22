@@ -60,6 +60,10 @@
     <Content Include="sass\default\screen.css">
       <DependentUpon>numpad.scss</DependentUpon>
     </Content>
+    <Content Include="scripts\handlebars.js" />
+    <Content Include="scripts\handlebars.runtime.js" />
+    <Content Include="scripts\jquery-latest.js" />
+    <Content Include="scripts\modernizr-latest.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +79,7 @@
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
     </Content>
+    <Content Include="scripts\Templates\numPad.handlebars" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts\Controls\" />
-    <Folder Include="scripts\Templates\" />
     <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
