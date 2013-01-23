@@ -16,4 +16,6 @@ $jp-color-alert: red;
 // general borders
 $jp-color-border: change-color($jp-color-context, $lightness: 70%);
 // general background
-$jp-color-background: change-color($jp-color-context, $lightness: 80%);
+$jp-color-background: change-color($jp-color-context, $lightness: 99%);
+
+$jp-test: red;

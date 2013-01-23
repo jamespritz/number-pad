@@ -76,7 +76,6 @@
   <ItemGroup>
     <Content Include="sass\partials\_color.scss" />
     <Content Include="sass\partials\_typography.scss" />
-    <Content Include="sass\_numpad.scss" />
     <Content Include="sass\default\numpad.scss">
       <Compile>False</Compile>
       <Minify>True</Minify>

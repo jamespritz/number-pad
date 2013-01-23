@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 23, C:/Users/JamieP/Personal/Projects/jamespritz/GitHub/number-pad/sass/default/numpad.scss */
 .numpad {
   opacity: 0.7;
-  background-color: #cccccc;
+  background-color: #fcfcfc;
   position: absolute;
   display: block;
   width: 260px;
@@ -130,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin: 0px;
   padding: 0px;
   border: solid 2px #b3b3b3;
-  background-color: #cccccc;
+  background-color: #fcfcfc;
   color: #4d4d4d;
   margin-left: 6px;
   cursor: pointer;

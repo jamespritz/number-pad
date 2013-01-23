@@ -27,7 +27,7 @@
                 }
             }
 
-            var template = Handlebars.templates['buttonPad']({});
+            var template = Handlebars.templates['numpad']({});
 
             var visible = false;
             var $_content;
@@ -152,8 +152,8 @@
 
 
                 ClickOrTouch(e, function (e) {
-                    console.log($(e.srcElement).text());
-                    var key = $(e.srcElement).text();
+                    console.log($(e.target).text());
+                    var key = $(e.target).text();
                     Edit(key);
                     cancelEvent(e);
                 });

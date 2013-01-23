@@ -1,12 +1,54 @@
 ﻿<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="ie6 no-js"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="ie7 no-js"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!-->
+<html lang="en" class="no-js" xmlns="http://www.w3.org/1999/xhtml">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <script src="scripts/modernizr-latest.js"></script>
+    <script src="scripts/jquery-latest.js"></script>
+   
+    <script src="scripts/handlebars.runtime.js"></script>
+    <script src="scripts/Templates/templates.js"></script>
+    <script src="scripts/util.js"></script>
+    <script src="scripts/Controls/numpad.js"></script>
+    <link href="stylesheets/default/numpad.css" rel="stylesheet" />
 
 
 
 </head>
 <body>
+<P>I freakin hate that the keyboard on a touch device consumes half the screen... so in the case when only numbers are needed, I figure I'll offer a quick keypad.<br />
+    This works on desktop and touch devices, responding to mouse / touch events respectively.  I like it.
+    </P>
+<br />
+
+<a href="#" id="button">click here</a>
+
+
+<script type="text/javascript">
+
+    (function ($) {
+
+        function cb(val) {
+            v = ((val == null) || (val == '0') || (val == '')) ? "try again, click some numbers this time." : "you entered {0}.  click here to enter another".format(val.toString());
+            
+
+            $('#button').text(v);
+        }
+
+        $('#button').click(function (e) {
+
+            //includeDecimal is not wired up yet!!
+            jp.numpad.show({ debug: true, includeDecimal:true, maxLength: 15, x: e.pageX, y: e.pageY, callBack: cb });
+
+        });
+
+    })(jQuery);
+
+</script>
 
 
 
