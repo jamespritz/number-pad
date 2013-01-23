@@ -1,0 +1,29 @@
+@mixin frame($radius, $padding : 20px) {
+	display: block;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	@include border-radius($radius);
+	border: solid 1px $jp-color-border;
+	padding: $padding
+
+}
+
+@function invert-percent($number)
+{
+	@return (100 - $number);
+}
+
+@function contrast-sharp($color, $against) { 
+
+
+
+	@return change-color($color, $lightness: if((lightness($against) > 50), 10%, 90%));
+	//@return rgb(255,255,255);
+}
+
+@function contrast-invert($color, $against) {
+
+	@return change-color($color, $lightness: invert-percent(lightness($against)));
+
+}

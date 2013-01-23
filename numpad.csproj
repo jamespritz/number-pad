@@ -57,13 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo.html" />
+    <Content Include="design.html" />
     <Content Include="sass\default\screen.css">
       <DependentUpon>numpad.scss</DependentUpon>
     </Content>
+    <Content Include="scripts\Controls\numpad.js" />
     <Content Include="scripts\handlebars.js" />
     <Content Include="scripts\handlebars.runtime.js" />
     <Content Include="scripts\jquery-latest.js" />
     <Content Include="scripts\modernizr-latest.js" />
+    <Content Include="scripts\util.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +84,7 @@
       <DebugInfo>False</DebugInfo>
     </Content>
     <Content Include="scripts\Templates\numPad.handlebars" />
+    <Content Include="sass\partials\_mixin.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,7 +93,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts\Controls\" />
     <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
